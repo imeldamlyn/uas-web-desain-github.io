@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>UAS Desain Web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+  </head>
+  <body>
+
+<!-- header section starts -->
+<header class="header">
+
+  <a href="#" class="logo"><i class="fa-solid fa-shop"></i> MiyShoPP </a>
+
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#categories">Categories</a>
+    <a href="#products"> Product </a>
+    <a href="#review">Review</a>
+  </nav>
+
+  <form action="" class="search-form">
+    <input type="search" id="search-box" placeholder="search here...">
+    <label for="search-box" class="fas fa-search"></label>
+  </form>
+  
+  <div class="icons">
+    <div class="fas fa-bars" id="menu-btn"></div>
+    <div class="fas fa-search" id="search-btn"></div>
+    <div class="fas fa-shopping-cart" id="cart-btn"></div>
+    <div class="fas fa-user" id="login-btn"></div>
+  </div>
+
+  <div class="shopping-cart">
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img src="img/img1.png" alt="" height="100px">
+      <div class="content">
+        <h3>Royal Canin Kitten second age</h3>
+        <span class="price"> Rp.65.000</span>
+        <span class="quantity"> qty: 2</span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-trash"></i>
+    <img src="img/img2.png" alt="" height="100px">
+      <div class="content">
+        <h3>Royal Canin Adult Ragdoll</h3>
+        <span class="price"> Rp.60.000/-</span>
+        <span class="quantity"> qty: 2</span>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class="fas fa-trash"></i>
+      <img src="img/img3.png" alt="" height="100px">
+      <div class="content">
+        <h3>Royal Canin Mini Adult 8kg</h3>
+        <span class="price"> Rp.65.000/-</span>
+        <span class="quantity"> qty: 2</span>
+      </div>
+    </div>
+    <div class="total"> total: Rp. 185.000/- </div>
+    <a href="#" class="btn"> check out </a>
+  </div>
+
+  <form action="" class="login-form">
+    <h3>Login now</h3>
+    <input type="email" placeholder="your email" class="box">
+    <input type="password" placeholder="your password" class="box">
+    <p>forget your password<a href="#" > click here</a></p>
+    <p>don't have an account <a href="#"> create now</a></p>
+
+    <input type="submit" value="login now" class="btn">
+  </form>
+</header>
+
+<!-- header section ends-->
+
+<!--home section starts-->
+
+<section class="home" id="home">
+  <div class="content">
+    <h3> Welcome To <span>MiyShoPP!!</span> </h3>
+    <p> Welcome to MiyShoPP, here we provide various kinds of pet food and also equipment for your beloved pet</p>
+    <a href="#" class="btn"> shop now</a>
+  </div>
+
+
+
+</section>
+
+<!--home section ends-->
+
+<!--features section starts-->
+<section class="features" id="features">
+
+  <h1 class="heading"> Our <span> Features</span></h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="img/payment.png" alt="" width="200px">
+      <h3> easy payment </h3>
+      <p> here we provide a variety of payment methods, either through Shopee, Tokopedia, DANA, OVO and Mbanking</p>
+      <a href="#" class="btn"> read more </a>
+    </div>
+    <div class="box">
+      <img src="img/delivery.png" alt="" width="300px">
+      <h3>free delivery</h3>
+      <p>here we provide free delivery if you buy up to IDR 500,000</p>
+      <a href="#" class="btn">read more</a>
+  </div>
+  </div>
+</section>
+<!--features section ends-->
+
+
+<!--categories section starts-->
+
+<section class="categories" id="categories">
+
+<h1 class="heading"> product <span>categories</span> </h1>
+
+<div class="box-container">
+  <div class="box">
+    <img src="img/cat.png" alt="">
+    <h3>Cat Food</h3>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">shop now</a>
+</div>
+
+<div class="box">
+    <img src="img/dog.png" alt="">
+    <h3>Dog Food</h3>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">shop now</a>
+</div>
+
+<div class="box">
+    <img src="img/petaksesoris.png" alt="">
+    <h3>pet accessories</h3>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">shop now</a>
+</div>
+
+<div class="box">
+    <img src="img/petgrooming.png" alt="">
+    <h3>Pet Grooming</h3>
+    <p>upto 45% off</p>
+    <a href="#" class="btn">shop now</a>
+</div>
+
+</div>
+
+</section>
+<!--Categories section ends-->
+
+<!--product section starts-->
+<section class="products" id="products">
+  <h1 class="heading">Our <span> Products</span></h1>
+  <div class="swiper product-slider">
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide box">
+        <img src="img/img1.png" alt="">
+        <h3>Royal Canin Kitten second age</h3>
+        <div class="price"> IDR 65.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img2.png" alt="" >
+        <h3>Royal Canin Ragdoll</h3>
+        <div class="price"> IDR 60.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img3.png" alt="">
+        <h3>Royal Canin Mini adult 8kg</h3>-
+        <div class="price"> IDR 65.000,-</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img4.png" alt="">
+        <h3>Pedigree</h3>
+        <div class="price"> IDR 70.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+</div>
+
+</div>
+
+<div class="swiper product-slider">
+
+<div class="swiper-wrapper">
+
+    <div class="swiper-slide box">
+        <img src="img/img5.png" alt="">
+        <h3>Eukanuba Puppy</h3>
+        <div class="price"> IDR 90.000,-</div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img6.png" alt="">
+        <h3>felix purina</h3>
+        <div class="price"> IDR 15.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img7.png" alt="">
+        <h3>Royal Canin weight control</h3>
+        <div class="price"> IDR 80.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+
+    <div class="swiper-slide box">
+        <img src="img/img8.png" alt="">
+        <h3>Whiskas adult 1+</h3>
+        <div class="price"> IDR 65.000,- </div>
+        <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+        </div>
+        <a href="#" class="btn">add to cart</a>
+    </div>
+  
+    </div>
+  </div>
+</section>
+
+<!--product section ends-->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+  <h1 class="heading"> customer's <span>review</span> </h1>
+
+  <div class="swiper review-slider">
+
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide box">
+              <img src="img/profile1.jpg" alt="">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+              <h3>Sasha Braus</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="img/profile4.jpg" alt="">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+              <h3>Kuroo Tetsuro</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="img/profile5.jpg" alt="">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+              <h3>Mikasa Ackerman</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+          <div class="swiper-slide box">
+              <img src="img/profile3.jpg" alt="">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde sunt fugiat dolore ipsum id est maxime ad tempore quasi tenetur.</p>
+              <h3>Bokuto Koutaro</h3>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>  <i class="fa-solid fa-shop"></i>MiyShoPP </h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam, saepe.</p>
+          <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+
+      <div class="box">
+          <h3>contact info</h3>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +8212121212 </a>
+          <a href="#" class="links"> <i class="fas fa-phone"></i> +9888-000-222 </a>
+          <a href="#" class="links"> <i class="fas fa-envelope"></i>  imeldamulyana711@gmail.com  </a>
+          <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> soekarno hatta, 64 </a>
+      </div>
+
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+          <a href="#" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+      </div>
+
+      <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe for latest updates</p>
+          <input type="email" placeholder="your email" class="email">
+          <input type="submit" value="subscribe" class="btn">
+      </div>
+
+  </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+  </body>
+</html>
